@@ -3,7 +3,7 @@ import JobHeaderInterface from "../../interfaces/JobHeaderInterface";
 import * as styles from "./index.css";
 import * as moment from "moment";
 
-export class jobHeader extends React.Component<JobHeaderInterface, {}> {
+class jobHeader extends React.Component<JobHeaderInterface, {}> {
   render() {
     const { jobtitle, employerName, date, expirationDate } = this.props;
 

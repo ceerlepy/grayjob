@@ -1,7 +1,7 @@
 import * as React from "react";
 import EmployerInterface from "../../interfaces/EmployerInterface";
 
-export class employer extends React.Component<EmployerInterface, {}> {
+class employer extends React.Component<EmployerInterface, {}> {
   //static propTypes = {};
 
   render() {
